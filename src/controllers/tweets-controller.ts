@@ -154,8 +154,6 @@ const deleteTweet = async (req: any, res: any, next: any) => {
     return next(error);
   }
 
-  console.log(tweet);
-
   if (!tweet) {
     const error = new Error("Could not find a tweet with the provided id");
     return next(error);
