@@ -1,8 +1,0 @@
-{
-  "env": {
-    "DB_USER": "momo",
-    "DB_PASSWORD": "papillondenuit45300",
-    "DB_NAME": "twitter",
-    "JWT_KEY": "supersecret_dont_share"
-  }
-}
